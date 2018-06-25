@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="jumbotron" style="margin-bottom: 0px; color: white; background-color: deepskyblue">
+            <h2 class="text-center" style="font-size: 40px; font-weight: 300;">Your local weather</h2>
+            
+            <div class="weather1">
+
+                <h2 id="city1"></h2>
+
+                <div class="middle">
+                    <img src="" alt="icon" id="icon">
+                    <div class="degrees">
+                        <h1 id="temp"></h1>
+                        <span>&#176;</span>
+                    </div>
+                    <h3 id="desc"></h3>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="container" style="height: 600px";>
+            <div class="row">
+                <h3 class="text-center text-primary" id="citynametext">Enter City Name</h3>
+                <span id="error"></span>
+            </div>
+
+            <div class="row form-group form-inline" id="rowDiv">
+                <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+                <button id="submitWeather" class="btn btn-primary">Search City</button>
+            </div>
+
+            <div id="show"></div>
+
+        </div>
+
+        <div class="footer">
+            <div class="container" >
+                <div class="row text-center" style="padding-top:30px; ">
+                    <p style="color: white" id="copyright">Copyright &copy; Current Weather App by 'Karam'</p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="weather.js"></script>
+    </body>
+</html>
+

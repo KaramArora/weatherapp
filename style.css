@@ -1,0 +1,90 @@
+#rowDiv {
+
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-left: 34%;
+}
+
+#citynametext {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitWeather {
+    height: 40px;
+    font-size: 20px;
+    font-weight:
+}
+
+#show {
+    margin: auto;
+    width: 50%;
+}
+
+.footer {
+    background-color: deepskyblue;
+    
+    height: 80px;
+}
+
+#copyright{
+    margin-left: 35%;
+}
+
+/*another css*/
+
+
+h1 , h2, h3, span {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+span {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.weather1 {
+	max-width: 300px;
+	height: 30vh;
+/*	border: 1px solid black;*/
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 20% 20%;
+	padding: 5px 5px;
+}
+
+.degrees {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+img {
+	width: 80px;
+	filter: grayscale(100%);
+}
+
+
+
